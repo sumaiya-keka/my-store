@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-import { useCartStore } from "../store/cartStore";
+import { useCartStore } from "../Store/CartStore";
 
 function Rootlayout() {
   const cart = useCartStore((state) => state.cart);
