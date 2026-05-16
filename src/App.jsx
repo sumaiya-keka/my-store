@@ -7,6 +7,7 @@ import Shop from "./components/Shop";
 import Cart from "./components/Cart";
 import Blog from "./components/Blog";
 
+
 function App() {
   return (
     <Routes>
